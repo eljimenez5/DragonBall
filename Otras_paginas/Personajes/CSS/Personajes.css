@@ -1,0 +1,83 @@
+.menu {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu_item {
+    float: left;
+    margin-right: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    background-color: rgb(255, 145, 0);
+    border: 5px solid black;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px black;
+    justify-content: center;
+}
+
+.clear {
+    clear: both;
+}
+
+.paginas {
+    border: 3px solid rgb(0, 0, 0);
+    background-color: rgba(255, 24, 178, 0.486);
+    color: aliceblue;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+
+.personajes {
+    width: 33.33%; 
+    width: 1%;
+    background-color: rgb(253, 166, 52);
+    color: aliceblue;
+    border: 5px solid;
+    color: black;}
+
+th:last-child, td:last-child {
+    width: 66.67%; 
+    width: 20%;
+    border: 5px solid;
+    color: black;
+}
+
+th {
+    font-size: 50px;
+    border: 5px solid;
+    color: black;
+}
+
+td {
+    border: 5px solid;
+    color: black;
+}
+
+img {
+    width: 100%;
+    opacity: 95;
+}
+
+table {
+    text-align: center;
+    margin: auto;
+    border-radius: 100px;
+    width: 80%;
+    background-color: rgb(248, 138, 12);
+    font-size: 30px;
+}
+
+.Twitch_logo {
+    width: 50px;
+    height: auto;
+}
+
+.Discord_logo {
+    width: 50px;
+    height: auto;
+}

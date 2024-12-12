@@ -1,0 +1,105 @@
+body {
+    background-color: rgba(255, 255, 255, 0.623);
+    background-image: url(/Imágenes/Fondo\ web.jpg);
+}
+
+#anime {
+    color: orange;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    border: 5px;
+    display: block;
+    text-shadow: 5px 5px 5px black;
+    font-family: "Yuji Mai", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.menu {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu_item {
+    float: left;
+    margin-right: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    background-color: rgb(255, 145, 0);
+    border: 5px solid black;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.clear {
+    clear: both;
+}
+
+p {
+    border: 5px;
+    color: white;
+}
+
+marquee {
+    color:black;
+}
+
+.esfera {
+    position: fixed;
+    top: 1%;
+    width: 120px;
+    height: 100px;
+    right: 0px;
+}
+
+
+
+marquee {
+    color: rgb(254, 255, 255);
+}
+
+audio {
+    position: absolute;
+    top: 15%;
+    right: 1px;
+}
+
+.mapa {
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    color: black;
+    text-align: center;
+}
+
+table {
+    text-align: center;
+    margin: auto;
+    border-radius: 100px;
+    width: 80%;
+    background-color: rgb(248, 138, 12);
+    font-size: 30px;
+}
+
+.Twitch_logo {
+    width: 50px;
+    height: auto;
+}
+
+.Discord_logo {
+    width: 50px;
+    height: auto;
+}
+
+.enviar:hover {
+    background-color: orange;
+}
+
+.redes:active {
+    background-color: pink;
+}
