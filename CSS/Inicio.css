@@ -1,6 +1,8 @@
 body {
-    background-color: #a200ff88;
+    background-color: #000000ab;
     background-image: url(/Imágenes/Fondo\ web.jpg);
+    font-size: 16px;
+    
 }
 
 .fondo {
@@ -13,6 +15,13 @@ body {
     background-color: #1E3A8A;
     border: 5% black;
     text-align: center;
+    padding: 2%;
+    margin: 1% auto;
+    border-radius: 5%;
+    width: 60%;
+    max-width: 600%;
+    box-shadow: 0px 0px 50px black;
+    justify-content: center;
 }
 
 #anime {
@@ -27,15 +36,19 @@ body {
     font-style: normal;
 }
 .menu {
-    text-align: center;
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap; 
+    text-align: center;
+    width: 100%;
+    margin: 0 auto; 
+    padding: 10px; 
 }
 
+
 .menu_item {
-    float: left;
+    display: flex;
     margin-right: 20px;
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -75,6 +88,7 @@ audio {
     position: absolute;
     top: 15%;
     right: 1px;
+    flex-wrap: wrap;
 }
 
 .mapa {
@@ -116,8 +130,13 @@ iframe {
 
 .enviar:hover {
     background-color: #FF6A13;
+    right: 0px;
 }
 
 .redes:active {
     background-color: pink;
+}
+
+form, li {
+    color: white;
 }
