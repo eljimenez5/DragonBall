@@ -1,5 +1,4 @@
 body {
-    background-color: rgba(255, 255, 255, 0.623);
     background-image: url(/Imágenes/Fondo\ web.jpg);
 }
 
@@ -27,7 +26,7 @@ body {
     margin-right: 20px;
     text-decoration: none;
     color: rgb(255, 255, 255);
-    padding: 10px;
+    padding: 1%;
     background-color: rgb(255, 145, 0);
     border: 5px solid black;
     border-radius: 50px;
@@ -54,8 +53,6 @@ marquee {
     height: 100px;
     right: 0px;
 }
-
-
 
 marquee {
     color: rgb(254, 255, 255);
@@ -84,6 +81,14 @@ table {
     width: 80%;
     background-color: rgb(248, 138, 12);
     font-size: 30px;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: 500px;
+    border-radius: 5%;
 }
 
 .Twitch_logo {
