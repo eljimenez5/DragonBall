@@ -85,10 +85,10 @@ marquee {
 }
 
 audio {
-    position: absolute;
-    top: 15%;
-    right: 1px;
-    flex-wrap: wrap;
+    width: 100%;
+    max-width: 350px; 
+    display: block;
+    margin: 10px auto;
 }
 
 .mapa {
@@ -139,4 +139,9 @@ iframe {
 
 form, li {
     color: white;
+}
+
+ul, ol {
+    list-style-position: inside;
+    text-align: center;
 }
