@@ -1,10 +1,22 @@
 body {
+    background-color: #a200ff88;
     background-image: url(/Imágenes/Fondo\ web.jpg);
-    background-color: blueviolet;
+}
+
+.fondo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja {
+    background-color: #1E3A8A;
+    border: 5% black;
+    text-align: center;
 }
 
 #anime {
-    color: orange;
+    color: #FF6A13;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     border: 5px;
@@ -28,7 +40,7 @@ body {
     text-decoration: none;
     color: rgb(255, 255, 255);
     padding: 1%;
-    background-color: rgb(255, 145, 0);
+    background-color: #FF6A13;
     border: 5px solid black;
     border-radius: 50px;
     box-shadow: 5px 5px 5px black;
@@ -80,7 +92,7 @@ table {
     margin: auto;
     border-radius: 100px;
     width: 80%;
-    background-color: rgb(248, 138, 12);
+    background-color: #FF6A13;
     font-size: 30px;
 }
 
@@ -103,7 +115,7 @@ iframe {
 }
 
 .enviar:hover {
-    background-color: orange;
+    background-color: #FF6A13;
 }
 
 .redes:active {
