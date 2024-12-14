@@ -61,26 +61,18 @@ td {
     color: black;
 }
 
-img {
-    width: 100%;
-    opacity: 95;
-}
-
-table {
+.carta {
+    width: 250px;
+    background-color: #1E3A8A;
+    color: white;
     text-align: center;
-    margin: auto;
-    border-radius: 100px;
-    width: 80%;
-    background-color: rgb(248, 138, 12);
-    font-size: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #FF6A13;
+    margin: 10px;
+    padding: 15px;
 }
 
-.Twitch_logo {
-    width: 50px;
-    height: auto;
-}
-
-.Discord_logo {
-    width: 50px;
-    height: auto;
+.carta img {
+    width: 100%;
+    border-radius: 10px;
 }

@@ -1,8 +1,8 @@
 body {
     background-color: #000000ab;
-    background-image: url(/Imágenes/Fondo\ web.jpg);
-    font-size: 16px;
-    
+    background-image: url(../../Imágenes/Fondo\ web.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .fondo {
@@ -14,7 +14,6 @@ body {
 .caja {
     background-color: #1E3A8A;
     border: 2px solid #FF6A13;
-    text-align: center;
     padding: 2%;
     margin: 1% auto;
     border-radius: 5%;
@@ -22,6 +21,11 @@ body {
     max-width: 600%;
     box-shadow: 0px 0px 50px black;
     justify-content: center;
+    box-shadow: 0px 0px 15px #FF6A13;
+}
+
+.caja:hover {
+    transform: scale(1.1);
 }
 
 #anime {
@@ -57,6 +61,12 @@ body {
     border: 5px solid black;
     border-radius: 50px;
     box-shadow: 5px 5px 5px black;
+}
+
+.menu_item:hover {
+    background-color: #FFD700;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 50px #FFD700;
 }
 
 .clear {
@@ -118,6 +128,10 @@ iframe {
     border-radius: 5%;
 }
 
+.fragmento:hover {
+    transform: scale(1.1);
+}
+
 .Twitch_logo {
     width: 50px;
     height: auto;
@@ -131,6 +145,7 @@ iframe {
 .enviar:hover {
     background-color: #FF6A13;
     right: 0px;
+    transform: scale(1.5);
 }
 
 .redes:active {
@@ -143,5 +158,5 @@ form, li {
 
 ul, ol {
     list-style-position: inside;
-    text-align: center;
 }
+
