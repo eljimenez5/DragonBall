@@ -13,7 +13,7 @@ body {
 
 .caja {
     background-color: #1E3A8A;
-    border: 5% black;
+    border: 2px solid #FF6A13;
     text-align: center;
     padding: 2%;
     margin: 1% auto;
