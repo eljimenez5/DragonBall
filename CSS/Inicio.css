@@ -91,6 +91,13 @@ marquee {
     right: 0px;
 }
 
+.logo-DragonBall {
+    position: fixed;
+    top: 1%;
+    width: 90px;
+    left: 0px;
+}
+
 marquee {
     color: rgb(254, 255, 255);
 }
@@ -170,22 +177,31 @@ ul, ol {
 @media (max-width: 768px) {
     .caja {
         width: 90%;
-        margin: 6% auto;
+        margin: 5% auto;
         padding: 4%;
     }
 
     iframe {
         width: 90%;
-        height: 300px;
+        height: 250px;
     }
 
     table {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .menu_item {
-        margin-right: 5px;
-        padding: 5px;
-        font-size: 14px;
+        margin-right: 2px;
+        padding: 1px;
+        font-size: 16px;
+    }
+    
+    #anime {
+        font-size: 20px;
+    }
+
+    .esfera {
+        width: 100px;
+        height: 80px;
     }
 }
