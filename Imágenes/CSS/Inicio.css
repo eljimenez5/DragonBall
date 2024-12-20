@@ -14,9 +14,9 @@ body {
     background-color: #1E3A8A;
     border: 2px solid #FF6A13;
     padding: 2%;
-    margin: 5% auto;
+    margin: 3% auto;
     border-radius: 5%;
-    width: 70%;
+    width: 60%;
     max-width: 90%;
     box-shadow: 0px 0px 50px black;
     justify-content: center;
@@ -141,13 +141,13 @@ iframe {
 
 .div-sabias-que {
     display: flex;
-        gap: 10px;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
-    .imagenes-sabias-que {
-        width: 30%; 
+.imagenes-sabias-que {
+    width: 30%; 
     height: 200px; 
     border-radius: 5px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
@@ -156,23 +156,6 @@ iframe {
 
 .imagenes-sabias-que:hover {
     transform: scale(2.5);
-}
-
-.div-nube-voladora {
-    display: flex;
-    justify-content: center;
-}
-
-.img-nube-voladora {
-    width: 50%;
-    border-radius: 50px;
-}
-
-.img-nube-voladora:hover {
-    transform: scale(1.1);
-    box-shadow: 0px 0px 50px rgb(0, 0, 0);
-    margin: 2%;
-    transition: all 0.5s;
 }
 
 .fragmento:hover {
@@ -195,16 +178,14 @@ iframe {
     right: 20px;
     bottom: 20px;
     border: none;
+    border-radius: 10%;
     background-color: #FF6A13;
     color: white;
-    width: 5%;
 }
 
 .enviar:hover {
-    background-color: #FFD700;
-    transform: scale(1.2);
-    transition: all 0.5s;
-    color: black;
+    background-color: #1E3A8A;
+    transform: scale(1.5);
 }
 
 .redes:active {
@@ -260,7 +241,8 @@ ul, ol {
     }
 
     .esfera {
-       display: none;
+        width: 80px;
+        height: 70px;
     }
 
     .logo-DragonBall {
@@ -278,26 +260,5 @@ ul, ol {
     
     .imagenes-sabias-que:hover {
         transform: scale(1.5);
-    }
-    
-    .logo-DragonBall {
-        display: none;
-    }
-
-    .enviar {
-        position: fixed;
-        right: 20px;
-        bottom: 10px;
-        border: none;
-        background-color: #FF6A13;
-        color: white;
-        width: 5%;
-    }
-    
-    .enviar:hover {
-        background-color: #FFD700;
-        transform: scale(1.2);
-        transition: all 0.5s;
-        color: black;
     }
 }

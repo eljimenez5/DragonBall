@@ -1,0 +1,78 @@
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    text-align: center;
+    width: 100%;
+    margin: 0 auto; 
+    padding: 10px; 
+}
+
+
+.menu_item {
+    display: flex;
+    margin-right: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 1%;
+    background-color: #FF6A13;
+    border: 5px solid black;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.clear {
+    clear: both;
+}
+
+.paginas {
+    border: 3px solid rgb(0, 0, 0);
+    background-color: rgba(255, 24, 178, 0.486);
+    color: aliceblue;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+
+.personajes {
+    width: 33.33%; 
+    width: 1%;
+    background-color: rgb(253, 166, 52);
+    color: aliceblue;
+    border: 5px solid;
+    color: black;}
+
+th:last-child, td:last-child {
+    width: 66.67%; 
+    width: 20%;
+    border: 5px solid;
+    color: black;
+}
+
+th {
+    font-size: 50px;
+    border: 5px solid;
+    color: black;
+}
+
+td {
+    border: 5px solid;
+    color: black;
+}
+
+.carta {
+    width: 250px;
+    background-color: #1E3A8A;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #FF6A13;
+    margin: 10px;
+    padding: 15px;
+}
+
+.carta img {
+    width: 100%;
+    border-radius: 10px;
+}
