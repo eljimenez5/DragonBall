@@ -2,7 +2,7 @@
     <html lang="es">
         <head>
             <meta charset="UTF-8">
-            <meta name="viewport" content="width=ç, initial-scale=1.0">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Dragon Ball</title>
             <link rel="stylesheet" href="CSS/Inicio.css">
             <link rel="icon" href="Imágenes/Esfera 4 estrellas.webp">
@@ -14,11 +14,11 @@
     <header>
         <img class="esfera" src="Imágenes/Esfera 4 estrellas.webp" alt="esfera">
         <img class="logo-DragonBall" src="Imágenes/Logo-DragonBall.png" alt="logo-DragonBall">
-            <h1 class="h1">Animes Dragon Ball</h1>
-    <nav>
+            <h1 id="inicio">Animes Dragon Ball</h1>
+<nav>
         <div class="menu">
                         <a href="index.html"class="menu_item">Inicio </a>
-                        <a href="Otras_paginas/Dragon_Ball/Dragon_Ball.html"class="menu_item" class="animacion-boton:hover">Dragon Ball</a>
+                        <a href="Otras_paginas/Dragon_Ball/Dragon_Ball.html"class="menu_item">Dragon Ball</a>
                         <a href="Otras_paginas/Dragon_Ball_Z/Dragon_Ball_Z.html"class="menu_item">Dragon Ball Z</a>
                         <a href="Otras_paginas/Dragon_Ball_Super/Dragon_Ball_Super.html"class="menu_item">Dragon Ball Super</a>
                         <a href="Otras_paginas/Dragon_Ball_GT/Dragon_Ball_GT.html"class="menu_item">Dragon Ball GT</a>
@@ -26,11 +26,29 @@
                         <a href="Otras_paginas/Personajes/Personajes.html"class="menu_item">Personajes</a>
                     <div class="clear"></div>
         </div>
-    </nav>
+    <div class="caja-indice">
+        <h1>Índice</h1>
+        <ul>
+            <li><a href="#inicio" class="a">Inicio</a></li>
+            <li><a href="#intro" class="a">Introducción.</a></li>
+            <li><a href="#nube" class="a">Nube voladora.</a></li>
+            <li><a href="#sabias-que" class="a">¿Sabías qué?</a></li>
+        </ul>
+    </div>
+    <div class="caja-redes">
+        <h1>Redes</h1>
+        <a href="https://heylink.me/eljimenez5/" class="a"><img src="Imágenes/Logo-enlaces.png" class="imagen-redes">Todas.</a>
+        <a href="https://heylink.me/eljimenez5YT/?utm_medium=social&utm_source=heylink.me" class="a"><img src="Imágenes/Global.png" class="imagen-redes">Webs.</a>
+        <a href="https://youtube.com/eljimenez5" class="a"><img src="Imágenes/YT.png" class="imagen-redes">YouTube.</a>
+        <a href="https://twitch.tv/eljimenez5" class="a"><img src="Imágenes/Twitch.png" class="imagen-redes">Twitch.</a>
+        <a href="https://instagram.com/eljimenez5" class="a"> <img src="Imágenes/Instagram.png" class="imagen-redes">Instagram.</a>
+        <a href="https://discord.gg/Hav7KAwN36" class="a"><img src="Imágenes/Discord.png" class="imagen-redes">Discord.</a>
+    </div>
+</nav>
     </header>
     </div>
     <div class="caja">
-        <h1 class="h1">Introducción</h1>
+        <h1 id="intro">Introducción</h1>
             <p>Dragon Ball, creado por Akira Toriyama en 1984, es una de las series de anime más influyentes y queridas del mundo.</p>
             <p>Antes de fallecer por un hematoma subdural agudo (un tipo de hemorragia cerbal) a los 68 años de edad, trabajó en su último proyecto, Dragon Ball Daima, el cual se encuentra en emisión desde el 11 de octubre de 2024 (cada viernes a las 21:00 hora española disponemos de un nuevo episodio).</p>
             <p>La historia sigue las aventuras de Goku, un niño que vive solo en el Monte Paoz (también conocido como La Montaña Baozi). Peculiar por su cola de mono y su gran fuerza que lo permite vivir de la naturaleza desde los 5 años tras la muerte de su abuelo adoptivo, Gohan.</p>
@@ -69,7 +87,7 @@
         </ol>
     </div>
     <div class="caja">
-        <h1 class="h1">Nube voladora</h1>
+        <h1 id="nube">Nube voladora</h1>
             <p>La nube voladora, también conocida como nube Kinton legó en el episodio 3 de Dragon Ball, llamado "La nube dorada de Roshi". En este episodio donde apareció por primera vez el maestro Roshi, le dió a Goku la nube voladora como agradecimieneto por llevar hasta el mar a su tortuga llamada tortuga o Umigame (tortuga en japonés).
                 a habilidad de poder viajar por las nubes de Sun Wukong en Viaje al Oeste, personaje del cual se inspiró Akira Toriyama para crear a Son Goku.
             <br><br>
@@ -139,7 +157,7 @@
         </form>
     </div> 
     <div class="caja">
-        <h1 class="h1">¿Sabías qué?</h1>
+        <h1 id="sabias-que">¿Sabías qué?</h1>
         <p>En Arabia Saudita la compañía de Qiddiya Investment está creando un parque temático dedicado a Dragon Ball de 500.000 metros cuadrados. Será el primer parque temático de Dragon Ball en todo el mundo, donde desde la <a href="https://en.dragon-ball-official.com/news/01_2533.html" class="enlaces">web oficial</a>
             dicen que "los visitantes podrán vivir una aventura con Goku y sus amigos mientras disfrutan del mundo de Dragon Ball, desde el principio del anime hasta Dragon Ball Super".
         <br><br>
@@ -164,23 +182,21 @@
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3628.560728779908!2d46.280795711719016!3d24.569837556732487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f2ba04cabe7db%3A0x14d07d8f4ca7891!2sQiddiya%20Experience%20Center!5e0!3m2!1ses!2ses!4v1733466131083!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="fragmento"></iframe>
             </div>
         </div>   
-    </div>
-        <button id="btn-up" class="enviar">Subir</button>
-        <script src="JavaScript/Java.js"></script>        
-    <footer>
-        <audio id="audioElement" src="Audios/Audio_fondo.mp3" autoplay controls loop></audio>
-            <table class="redes">
-                <tr>
-                    <td>
-                        <a href="https://heylink.me/eljimenez5/"><img src ="Imágenes/Global.png"></a>
-                        <a href="https://instagram.com/eljimenez5"> <img src="Imágenes/Instagram.png"></a>
-                        <a href="https://youtube.com/eljimenez5"><img src="Imágenes/YT.png"></a>
-                        <a href="https://twitch.tv/eljimenez5"><img src="Imágenes/Twitch.png" class="Twitch_logo"></a>
-                        <a href="https://discord.gg/Hav7KAwN36"><img src="Imágenes/Discord.png" class="Discord_logo"></a>
-                    </td>
-                </tr>
-            </table>
-        <marquee>Web realizada por Francisco Jiménez Ocaña</marquee>
-    </footer>
-    </body>
-    </html>
+    </div>     
+<footer>
+    <audio src="Audios/Fondo.mp3" autoplay controls loop></audio>
+    <table>
+        <tr>
+            <td>
+                <a href="https://heylink.me/eljimenez5/"><img src ="Imágenes/Global.png"></a>
+                <a href="https://youtube.com/eljimenez5"><img src="Imágenes/YT.png"></a>
+                <a href="https://twitch.tv/eljimenez5"><img src="Imágenes/Twitch.png" class="Twitch_logo"></a>
+                <a href="https://discord.gg/Hav7KAwN36"><img src="Imágenes/Discord.png" class="Discord_logo"></a>
+                <a href="https://instagram.com/eljimenez5"> <img src="Imágenes/Instagram.png"></a>
+            </td>
+        </tr>
+    </table>
+    <marquee>Web realizada por Francisco Jiménez Ocaña</marquee>
+</footer>
+</body>
+</html>
