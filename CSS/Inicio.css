@@ -195,7 +195,7 @@ body {
 }
 
 .caja-redes:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: all 0.5s;
     background-color: #FFC107;
     box-shadow: 0px 0px 30px white;
@@ -243,7 +243,7 @@ audio {
     display: block;
     position: fixed;
     right: 1%;
-    bottom: 20%;
+    bottom: 23%;
 }
 
 .mapa {
@@ -328,6 +328,30 @@ table {
    display: none;
 }
 
+.contador {
+    position: absolute;
+    top: 80%;
+    right: 3.9%;
+    margin: 10px;
+    display: block;
+    position: fixed;
+    background-color: #FF6A13;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.contador:hover {
+    transform: scale(1.2);
+    transition: all 0.5s;
+    background-color: #FFC107;
+    box-shadow: 0px 0px 30px white;
+}
+
+.visitas {
+    color: white;
+    text-align: center;
+}
+
 /* CSS para móviles */
 
 @media (max-width: 768px) {
@@ -358,7 +382,7 @@ table {
         box-shadow: 0px 0px 30px white;
         position: relative;
         padding: 1%;
-        margin-top: 5%;
+        margin-top: 10%;
     }
 
     .caja-indice:hover {
@@ -440,5 +464,9 @@ table {
         margin: 10px auto;
         top: 80%;
         position: static;
+    }
+
+    .contador {
+        display: none;
     }
 }
