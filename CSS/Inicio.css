@@ -72,12 +72,12 @@ body {
     background-color: #FF6A13;
     width: 12%;
     border-radius: 5%;
-    margin-left: 2%;
+    margin-left: 1.7%;
     color: white;
     position: fixed;
     text-align: center;
     box-shadow: 0px 0px 30px white;
-    font-size: 130%;
+    font-size: 122%;
 }
 
 .caja-indice:hover {
@@ -91,6 +91,7 @@ body {
     text-decoration: none;
     color: #ffffff; 
     text-align: left;
+    font-size: 80%;
 }
 
 .a:hover {
@@ -163,6 +164,40 @@ body {
 
 .img-baston:hover {
     transform: scale(1.5);
+    transition: all 0.5s ;
+    margin: 4%;
+    box-shadow: 0px 0px 50px black;
+}
+
+.div-radar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#radar {
+    color: #FF6A13;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    border: 5px;
+    display: block;
+    text-shadow: 5px 5px 5px black;
+    font-family: "Yuji Mai", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.img-radar {
+    width: 30%;
+    margin: 1%;
+    height: 50%;
+    border: none;
+    border-radius: 5%;
+}
+
+.img-radar:hover {
+    transform: scale(1.3);
     transition: all 0.5s ;
     margin: 4%;
     box-shadow: 0px 0px 50px black;
@@ -467,9 +502,6 @@ table {
     }
 
     .contador {
-        display: none;
-    }
-       .contador {
         display: none;
     }
 }
