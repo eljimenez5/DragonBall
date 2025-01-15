@@ -1,7 +1,25 @@
+@font-face {
+    font-family: 'SaiyanSans';
+    src: url(../Fuentes/Saiyan-Sans.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    background: #FF6A13;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #FFC107;
+    border-radius: 10px; 
+}
+
 body {
     background-image: url(../Imágenes/Fondo\ web.jpg);
     background-size: cover;
     background-attachment: fixed;
+    overflow-x: hidden; /* Oculta la barra inferior. */
 }
 
 .fondo {
@@ -27,17 +45,29 @@ body {
     transition: all 0.5s ease;
 }
 
-.h1 {
-    color: #FF6A13;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+h1 {
+    color: #ffffff;
+    font-size: 150%;
     text-align: center;
     border: 5px;
     display: block;
     text-shadow: 5px 5px 5px black;
-    font-family: "Yuji Mai", serif;
+    font-family: 'SaiyanSans', sans-serif;
     font-weight: 400;
-    font-style: normal;
+    font-style: italic ;
 }
+
+h2 {
+    color: #1bf807 ;
+    font-size: 150%;
+    border: 5px;
+    display: block;
+    text-shadow: 5px 5px 5px black;
+    font-family: 'SaiyanSans', sans-serif;
+    font-weight: 400;
+    font-style: italic ;
+}
+
 .menu {
     display: flex;
     justify-content: center;
@@ -70,14 +100,14 @@ body {
 
 .caja-indice {
     background-color: #FF6A13;
-    width: 12%;
+    width: 13%;
     border-radius: 5%;
     margin-left: 1.7%;
     color: white;
     position: fixed;
     text-align: center;
     box-shadow: 0px 0px 30px white;
-    font-size: 122%;
+    font-size: 120%;
 }
 
 .caja-indice:hover {
@@ -91,7 +121,7 @@ body {
     text-decoration: none;
     color: #ffffff; 
     text-align: left;
-    font-size: 80%;
+    font-size: 90%;
 }
 
 .a:hover {
@@ -99,40 +129,50 @@ body {
     text-decoration: underline; 
 }
 
+.enlaces{
+    text-decoration: none;
+    color: #FF6A13; 
+    text-align: left;
+    font-size: 90%;
+}
+
+.enlaces:hover {
+    color: #FFC107; 
+    text-decoration: underline; 
+}
+
+
 #inicio {
     color: #FF6A13;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'SaiyanSans', sans-serif;
+    font-size: 300%;
     text-align: center;
-    border: 5px;
     display: block;
     text-shadow: 5px 5px 5px black;
-    font-family: "Yuji Mai", serif;
     font-weight: 400;
-    font-style: normal;
+    font-style: italic ;
 }
 
 #intro {
     color: #FF6A13;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    border: 5px;
     display: block;
     text-shadow: 5px 5px 5px black;
-    font-family: "Yuji Mai", serif;
     font-weight: 400;
-    font-style: normal;
+    font-style: italic ;
+    font-family: 'SaiyanSans', sans-serif;
+    font-size: 300%;
 }
 
 #nube {
     color: #FF6A13;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'SaiyanSans', sans-serif;
     text-align: center;
-    border: 5px;
     display: block;
     text-shadow: 5px 5px 5px black;
-    font-family: "Yuji Mai", serif;
     font-weight: 400;
-    font-style: normal;
+    font-style: italic ;
+    font-size: 300%;
 }
 
 .div-baston {
@@ -144,14 +184,13 @@ body {
 
 #baston {
     color: #FF6A13;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'SaiyanSans', sans-serif;
+    font-size: 300%;
     text-align: center;
-    border: 5px;
     display: block;
     text-shadow: 5px 5px 5px black;
-    font-family: "Yuji Mai", serif;
     font-weight: 400;
-    font-style: normal;
+    font-style: italic ;
 }
 
 .img-baston {
@@ -169,23 +208,22 @@ body {
     box-shadow: 0px 0px 50px black;
 }
 
+#radar {
+    color: #FF6A13;
+    font-family: 'SaiyanSans', sans-serif;
+    font-size: 300%;
+    text-align: center;
+    display: block;
+    text-shadow: 5px 5px 5px black;
+    font-weight: 400;
+    font-style: italic ;
+}
+
 .div-radar {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-}
-
-#radar {
-    color: #FF6A13;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    border: 5px;
-    display: block;
-    text-shadow: 5px 5px 5px black;
-    font-family: "Yuji Mai", serif;
-    font-weight: 400;
-    font-style: normal;
 }
 
 .img-radar {
@@ -203,16 +241,294 @@ body {
     box-shadow: 0px 0px 50px black;
 }
 
-#sabias-que {
+.div-semillas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#semillas {
     color: #FF6A13;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'SaiyanSans', sans-serif;
+    font-size: 300%;
     text-align: center;
-    border: 5px;
     display: block;
     text-shadow: 5px 5px 5px black;
-    font-family: "Yuji Mai", serif;
     font-weight: 400;
-    font-style: normal;
+    font-style: italic ;
+}
+
+.img-semillas {
+    width: 30%;
+    margin: 3%;
+}
+
+.img-semillas:hover {
+    transform: scale(1.2);
+    transition: all 0.3s;
+    padding: 1%;
+}
+
+#agua-supersagrada {
+    color: #FF6A13;
+    font-family: 'SaiyanSans', sans-serif;
+    font-size: 300%;
+    text-align: center;
+    display: block;
+    text-shadow: 5px 5px 5px black;
+    font-weight: 400;
+    font-style: italic ;
+}
+
+.div-agua-supersagrada {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img-agua-supersagrada {
+    width: 15%;
+}
+
+.img-agua-supersagrada:hover {
+    transform: scale(1.2);
+    transition: all 0.3s;
+}
+
+#agua-inmortalidad {
+    color: #FF6A13;
+    font-family: 'SaiyanSans', sans-serif;
+    font-size: 300%;
+    text-align: center;
+    display: block;
+    text-shadow: 5px 5px 5px black;
+    font-weight: 400;
+    font-style: italic ;
+}
+
+.div-inmortalidad {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img-hierbas {
+    width: 50%;
+    border: none;
+    border-radius: 5%;
+    margin: 2%;
+}
+
+.img-hierbas:hover {
+    transform: scale(1.3);
+    transition: all 0.3s;
+    box-shadow: 0px 0px 30px black;
+    margin: 5%;
+}
+
+#agua-ultrasagrada {
+    color: #FF6A13;
+    font-family: 'SaiyanSans', sans-serif;
+    font-size: 300%;
+    text-align: center;
+    display: block;
+    text-shadow: 5px 5px 5px black;
+    font-weight: 400;
+    font-style: italic ;
+}
+
+.div-agua-ultrasagrada {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-agua-ultrasagrada {
+    width: 15%;
+}
+
+.img-agua-ultrasagrada:hover {
+    transform: scale(1.3);
+    transition: all 0.3s;
+}
+
+#pendientes-potara {
+    color: #FF6A13;
+    font-family: 'SaiyanSans', sans-serif;
+    font-size: 300%;
+    text-align: center;
+    display: block;
+    text-shadow: 5px 5px 5px black;
+    font-weight: 400;
+}
+
+.div-pendientes-potara {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img-pendientes-potara {
+    width: 30%;
+    border: none;
+    border-radius: 5%;
+    margin: 2%;
+}
+
+.img-pendientes-potara:hover {
+    transform: scale(1.2);
+    transition: all 0.3s;
+    box-shadow: 0px 0px 50px black;
+}
+
+#anillos {
+    color: #FF6A13;
+    font-family: 'SaiyanSans', sans-serif;
+    font-size: 300%;
+    text-align: center;
+    display: block;
+    text-shadow: 5px 5px 5px black;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.div-anillos-del-tiempo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-anillos-del-poder {
+    width: 30%;
+    border: none;
+    border-radius: 5%;
+    margin: 2%;
+}
+
+.img-anillos-del-poder:hover {
+    transform: scale(1.2);
+    transition: all 0.3s;
+    box-shadow: 0px 0px 50px black; 
+}
+
+#videojuegos {
+    color: #FF6A13;
+    font-family: 'SaiyanSans', sans-serif;
+    font-size: 300%;
+    text-align: center;
+    display: block;
+    text-shadow: 5px 5px 5px black;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.img-shenron-no-nazo {
+    width: 20%;
+    border: none;
+    border-radius: 5%;
+    float: right;
+    margin-top: -12%;
+    margin-right: 15%;
+}
+
+.img-shenron-no-nazo:hover {
+    transform: scale(1.2);
+    transition: all 0.3s;
+    box-shadow: 0px 0px 30px black;
+}
+
+.img-buttoden {
+    width: 20%;
+    border: none;
+    border-radius: 5%;
+    float: right;
+    margin-top: -20%;
+    margin-right: 15%;
+}
+
+.img-buttoden:hover {
+    transform: scale(1.2);
+    transition: all 0.3s;
+    box-shadow: 0px 0px 30px black;
+}
+
+.img-Tenkaichi_3 {
+    width: 20%;
+    border: none;
+    border-radius: 5%;
+    float: right;
+    margin-top: -35%;
+    margin-right: 15%;
+}
+
+.img-Tenkaichi_3:hover {
+    transform: scale(1.2);
+    transition: all 0.3s;
+    box-shadow: 0px 0px 30px black;
+}
+
+.img-Xenoverse {
+    width: 17%;
+    border: none;
+    border-radius: 5%;
+    float: right;
+    margin-top: -25%;
+    margin-right: 16.4%;
+}
+
+.img-Xenoverse:hover {
+    transform: scale(1.2);
+    transition: all 0.3s;
+    box-shadow: 0px 0px 30px black;
+}
+
+.img-sparking-zero {
+    width: 17%;
+    border: none;
+    border-radius: 5%;
+    float: right;
+    margin-top: -11%;
+    margin-right: 16.4%;
+}
+
+.img-sparking-zero:hover {
+    transform: scale(1.2);
+    transition: all 0.3s;
+    box-shadow: 0px 0px 30px black;
+}
+
+#sabias-que {
+    color: #FF6A13;
+    font-family: 'SaiyanSans', sans-serif;
+    font-size: 300%;
+    text-align: center;
+    display: block;
+    text-shadow: 5px 5px 5px black;
+    font-weight: 400;
+    font-style: italic ;
+}
+
+.div-sabias-que {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imagenes-sabias-que {
+    width: 30%; 
+    height: 200px; 
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s;   
+}
+
+.imagenes-sabias-que:hover {
+    transform: scale(2.5);
 }
 
 .caja-redes {
@@ -247,7 +563,6 @@ body {
 }
 
 p {
-    border: 5px;
     color: white;
 }
 
@@ -269,7 +584,12 @@ p {
 }
 
 marquee {
-    color: rgb(254, 255, 255);
+    color: rgb(255, 251, 7);
+    background-color: black;
+    animation: moverFondo 5s linear infinite;
+    padding: 10px;
+    font-size: 20px;
+    margin: -5%;
 }
 
 audio {
@@ -305,25 +625,6 @@ iframe {
     box-shadow: 0px 0px 50px rgb(238, 238, 238);
 }
 
-.div-sabias-que {
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.imagenes-sabias-que {
-    width: 30%; 
-    height: 200px; 
-    border-radius: 5px;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
-    transition: all 0.5s;   
-}
-
-.imagenes-sabias-que:hover {
-    transform: scale(2.5);
-}
-
 .div-nube-voladora {
     display: flex;
     justify-content: center;
@@ -353,10 +654,6 @@ form, li {
 
 ul, ol {
     list-style-position: inside;
-}
-
-.enlaces {
-    color: #FF6A13;
 }
 
 table {
@@ -393,6 +690,7 @@ table {
 
     body {
         position: relative;
+        font-size: 10px;
     }
 
     .caja {
