@@ -45,6 +45,14 @@ body {
     transition: all 0.5s ease;
 }
 
+.caja-advertencia {
+   display: none;
+}
+
+.titulo-advertencia {
+    display: none;
+}
+
 h1 {
     color: #ffffff;
     font-size: 150%;
@@ -693,6 +701,34 @@ table {
         font-size: 10px;
     }
 
+    .caja-advertencia {
+        background-color: #1E3A8A;
+        display: block;
+        border: 2px solid #FF6A13;
+        padding: 1%;
+        margin: 3% auto;
+        border-radius: 5%;
+        width: 60%;
+        box-shadow: 0px 0px 50px black;
+        text-align: center;
+    }
+    
+    .titulo-advertencia {
+        color: #FFC107;
+        font-size: 250%;
+        text-align: center;
+        border: 5px;
+        display: block;
+        text-shadow: 5px 5px 5px black;
+        font-family: 'SaiyanSans', sans-serif;
+        font-weight: 400;
+        font-style: italic ;
+    }
+
+    .p-advertencia {
+        color: #ff10c3
+    }
+
     .caja {
         width: 80%;
         margin: 10% auto;
@@ -774,6 +810,32 @@ table {
         display: none; 
     }
 
+    .li-videojuegos {
+        font-size: 8.3px;
+      
+        margin-left: -35px;
+    }
+    
+    .img-shenron-no-nazo {
+        display: none;
+    }
+   
+    .img-buttoden {
+        display: none;
+    }
+    
+    .img-Tenkaichi_3 {
+        display: none;
+    }
+    
+    .img-Xenoverse {
+        display: none;
+    }
+    
+    .img-sparking-zero {
+        display: none;
+    }
+    
     table {
         display: block;
         border-radius: 100px;
