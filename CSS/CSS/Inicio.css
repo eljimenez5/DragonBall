@@ -16,7 +16,7 @@
 }
 
 body {
-    background-image: url(../Imágenes/Fondo\ kamehouse.webp);
+    background-image: url(../Imágenes/Fondo\ web.jpg);
     background-size: cover;
     background-attachment: fixed;
     overflow-x: hidden; /* Oculta la barra inferior. */
@@ -45,10 +45,6 @@ body {
     transition: all 0.5s ease;
 }
 
-.advertencia {
-    display: none;
-}
-
 h1 {
     color: #ffffff;
     font-size: 150%;
@@ -66,17 +62,18 @@ h2 {
 }
 
 .menu {
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap; 
     text-align: center;
+    width: 100%;
     margin: 0 auto; 
     padding: 10px; 
     position: relative;
-    top: 12vh;
+    top: 77px;
 }
+
 
 .menu_item {
     display: flex;
@@ -88,7 +85,6 @@ h2 {
     border: 5px solid black;
     border-radius: 50px;
     box-shadow: 5px 5px 5px black;
-    
 }
 
 .menu_item:hover {
@@ -107,7 +103,6 @@ h2 {
     text-align: center;
     box-shadow: 0px 0px 30px white;
     font-size: 120%;
-    font-weight: bold;
 }
 
 .caja-indice:hover {
@@ -132,22 +127,23 @@ h2 {
 #inicio {
     color: #FF6A13;
     font-family: 'SaiyanSans', sans-serif;
-    font-size: 500%;
+    font-size: 300%;
+    text-align: center;
     display: block;
     text-shadow: 5px 5px 5px black;
     font-weight: 400;
-    margin-left: -2%;
+    font-style: italic ;
 }
 
 #intro {
     color: #FF6A13;
+    text-align: center;
     display: block;
     text-shadow: 5px 5px 5px black;
     font-weight: 400;
     font-style: italic ;
     font-family: 'SaiyanSans', sans-serif;
     font-size: 300%;
-    text-align: center;
 }
 
 .div-video-intro {
@@ -367,82 +363,6 @@ h2 {
     font-weight: 400;
 }
 
-.div-pendientes-potara {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-
-.img-pendientes-potara {
-    width: 50%;
-    border-radius: 5%;
-    box-shadow: 0px 0px 30px black;
-}
-
-.img-pendientes-potara:hover {
-    transform: scale(1.3);
-    transition: all 0.3s;
-}
-
-#anillos-del-tiempo {
-    color: #FF6A13;
-    font-family: 'SaiyanSans', sans-serif;
-    font-size: 300%;
-    text-align: center;
-    display: block;
-    text-shadow: 5px 5px 5px black;
-    font-weight: 400;
-}
-
-.div-anillos-del-tiempo {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-
-.img-anillos-del-tiempo {
-    width: 50%;
-    border-radius: 5%;
-    margin: 1%;
-}
-
-.img-anillos-del-tiempo:hover {
-    transform: scale(1.5);
-    transition: all 0.3s;
-    box-shadow: 0px 0px 30px black;
-}
-
-#tercer-ojo-demoniaco {
-    color: #FF6A13;
-    font-family: 'SaiyanSans', sans-serif;
-    font-size: 300%;
-    text-align: center;
-    display: block;
-    text-shadow: 5px 5px 5px black;
-    font-weight: 400;
-}
-
-.div-tercer-ojo-demoniaco {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-
-.img-tercer-ojo-demoniaco {
-    width: 50%;
-    border-radius: 5%;
-    margin: 1%;
-}
-
-.img-tercer-ojo-demoniaco:hover {
-    transform: scale(1.5);
-    transition: all 0.3s;
-    box-shadow: 0px 0px 30px black;
-}
-
 #sabias-que {
     color: #FF6A13;
     font-family: 'SaiyanSans', sans-serif;
@@ -466,7 +386,6 @@ h2 {
     padding: 1%;
     display: grid;
     font-size: 150%;
-    font-weight: bold;
 }
 
 .caja-redes:hover {
@@ -484,56 +403,49 @@ h2 {
     width: 5%;
     margin-left: 19.5%;
     position: relative;
-    top: -2vw;
-    left: 8.5vh;
+    top: -85px;
 }
 
 .esfera-2-estrella {
     width: 5%;
     margin-left: 1.5%;
     position: relative;
-    top: -3vw;
-    left: 7vh;
+    top: -95px;
 }
 
 .esfera-3-estrella {
     width: 5%;
     margin-left: 3.2%;
     position: relative;
-    top: -4vw;
-    left: 5vh
+    top: -105px;
 }
 
 .esfera-4-estrella {
     width: 5%;
     margin-left: 5%;
     position: relative;
-    top: -5vw;
-    left: 1vh
+    top: -120px;
 }
 
 .esfera-5-estrella {
     width: 5%;
     margin-left: 4.8%;
     position: relative;
-    top: -4vw;
-    left: -2vh
+    top: -105px;
 }
 
 .esfera-6-estrella {
     width: 5%;
     margin-left: 5%;
     position: relative;
-    top: -3vw;
-    left: -5.5vh
+    top: -95px;
 }
 
 .esfera-7-estrella {
     width: 5%;
     margin-left: 4.3%;
     position: relative;
-    top: -2vw;
-    left: -8vh
+    top: -85px;
 }
 
 .imagen-redes {
@@ -550,20 +462,21 @@ p {
     color: white;
 }
 
-.logo-DragonBall-derecha {
+.esfera {
     position: fixed;
     top: 1%;
-    width: 5%;
-    height: auto;
-    right: 25px;
+    width: 120px;
+    height: 100px;
+    right: 0px;
 }
 
-.logo-DragonBall-izquierda {
+.logo-DragonBall {
     position: fixed;
     top: 1%;
     width: 5%;
     height: auto;
-    left: 25px;
+    left: 0px;
+    padding: 1%;
 }
 
 marquee {
@@ -581,7 +494,7 @@ audio {
     display: block;
     position: fixed;
     right: 1%;
-    bottom: 20%;
+    bottom: 23%;
 }
 
 .mapa {
@@ -698,10 +611,6 @@ table {
         position: relative;
         font-size: 10px;
     }
-    
-    .logo-DragonBall-izquierda {
-        display: none;
-    }
 
     .caja {
         width: 80%;
@@ -715,32 +624,6 @@ table {
         transition: all 0.5s ease;
     }
 
-    .advertencia {
-        background-color: black;
-        display: block;
-        border: 2px solid #FF6A13;
-        padding: 1%;
-        margin: 3% auto;
-        border-radius: 5%;
-        width: 60%;
-        box-shadow: 0px 0px 50px black;
-    }
-
-    .advertencia:hover {
-        background-color: #1E3A8A;
-        display: block;
-        border: 2px solid #FF6A13;
-        padding: 1%;
-        margin: 3% auto;
-        border-radius: 5%;
-        width: 60%;
-        box-shadow: 0px 0px 50px black;
-    }
-
-    .p-advertencia {
-        color: #FFC107;
-    }
-
     .caja-indice {
         background-color: #FF6A13;
         width: 65%;
@@ -751,7 +634,7 @@ table {
         box-shadow: 0px 0px 30px white;
         position: relative;
         padding: 1%;
-        margin-top: 30%;
+        margin-top: 10%;
     }
 
     .caja-indice:hover {
@@ -761,73 +644,6 @@ table {
         box-shadow: 0px 0px 30px white;
     }
 
-    #inicio {
-        color: #FF6A13;
-        font-family: 'SaiyanSans', sans-serif;
-        align-items: center;
-        justify-content: center;
-        font-size: 500%;
-        display: block;
-        text-shadow: 5px 5px 5px black;
-        margin-bottom: 5vh;
-    }
-
-    .esfera-1-estrella {
-        width: 7%;
-        margin-left: 19.5%;
-        position: relative;
-        top: -103vw;
-        left: 0vh;
-    }
-    
-    .esfera-2-estrella {
-        width: 7%;
-        margin-left: 1.5%;
-        position: relative;
-        top: -110vw;
-        left: 0vh;
-    }
-    
-    .esfera-3-estrella {
-        width: 7%;
-        margin-left: 3.2%;
-        position: relative;
-        top: -120vw;
-        left: 0vh
-    }
-    
-    .esfera-4-estrella {
-        width: 7%;
-        margin-left: 5%;
-        position: relative;
-        top: -125vw;
-        left: -1vh
-    }
-    
-    .esfera-5-estrella {
-        width: 7%;
-        margin-left: 4.8%;
-        position: relative;
-        top: -120vw;
-        left: -2vh;
-    }
-    
-    .esfera-6-estrella {
-        width: 7%;
-        margin-left: 5%;
-        position: relative;
-        top: -110vw;
-        left: -4vh;
-    }
-    
-    .esfera-7-estrella {
-        width: 7%;
-        margin-left: 4.3%;
-        position: relative;
-        top: -103vw;
-        left: -5vh
-    }
-    
     iframe {
         width: 70%;
         height: 250%;
@@ -840,12 +656,16 @@ table {
 
     .menu_item {
         margin-right: 5px;
-        padding: 1%;
+        padding: 5px;
         font-size: 14px;
     }
     
     #anime {
         font-size: 18px;
+    }
+
+    .esfera {
+       display: none;
     }
 
     .logo-DragonBall {
