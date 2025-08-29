@@ -34,7 +34,7 @@ body {
     border: 2px solid #FF6A13;
     padding: 1%;
     margin: 3% auto;
-    border-radius: 5%;
+    border-radius: 30px;
     width: 60%;
     box-shadow: 0px 0px 50px black;
 }
@@ -51,7 +51,19 @@ body {
 
 h1 {
     color: #ffffff;
-    font-size: 150%;
+    font-size: 250%;
+    text-align: center;
+    border: 5px;
+    display: block;
+    text-shadow: 5px 5px 5px black;
+    font-family: 'SaiyanSans', sans-serif;
+    font-weight: 400;
+    font-style: italic ;
+}
+
+.indice-h1 {
+    color: #ffffff;
+    font-size: 350%;
     text-align: center;
     border: 5px;
     display: block;
@@ -100,7 +112,7 @@ h2 {
 .caja-indice {
     background-color: #FF6A13;
     width: 13%;
-    border-radius: 5%;
+    border-radius: 30px;
     margin-left: 1.7%;
     color: white;
     position: fixed;
@@ -108,6 +120,7 @@ h2 {
     box-shadow: 0px 0px 30px white;
     font-size: 120%;
     font-weight: bold;
+    top: 150px;
 }
 
 .caja-indice:hover {
@@ -457,7 +470,7 @@ h2 {
 .caja-redes {
     background-color: #FF6A13;
     width: 10%;
-    border-radius: 5%;
+    border-radius: 30px;
     margin-left:85%;
     color: white;
     position: fixed;
@@ -467,6 +480,7 @@ h2 {
     display: grid;
     font-size: 150%;
     font-weight: bold;
+    top: 150px;
 }
 
 .caja-redes:hover {
@@ -576,12 +590,13 @@ marquee {
 }
 
 audio {
-    width: 100%;
-    max-width: 15%; 
+    width: 50%;
+    max-width: 11%; 
     display: block;
     position: fixed;
-    right: 1%;
+    right: 3.3%;
     bottom: 20%;
+    top: 800px;
 }
 
 .mapa {
@@ -666,33 +681,36 @@ table {
    display: none;
 }
 
-.contador {
-    position: absolute;
-    top: 80%;
-    right: 3.9%;
-    margin: 10px;
-    display: block;
-    position: fixed;
-    background-color: #FF6A13;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-.contador:hover {
-    transform: scale(1.2);
-    transition: all 0.5s;
-    background-color: #FFC107;
-    box-shadow: 0px 0px 30px white;
-}
-
-.visitas {
-    color: white;
-    text-align: center;
-}
-
 /* CSS para móviles */
+#btn-subir {
+    display: none;
+    position: fixed;
+    bottom: 16px;
+    right: 31vw;
+    z-index: 9999;
+    background: transparent;
+    color: #00BFFF;
+    border: none;
+    border-radius: 0;
+    width: auto;
+    height: auto;
+    font-size: 2em;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+/* Botón flotante solo en móviles */
+
 
 @media (max-width: 768px) {
+    #btn-subir {
+        display: block !important;
+    }
+    #btn-subir {
+        display: block !important;
+    }
+    #btn-subir {
+        display: block !important;
+    }
 
     body {
         position: relative;
@@ -751,7 +769,8 @@ table {
         box-shadow: 0px 0px 30px white;
         position: relative;
         padding: 1%;
-        margin-top: 30%;
+        margin-top: 70%;
+        top: 5%;
     }
 
     .caja-indice:hover {
@@ -762,13 +781,14 @@ table {
     }
 
     #inicio {
-        color: #FF6A13;
+        color: #00BFFF;
         font-family: 'SaiyanSans', sans-serif;
         align-items: center;
         justify-content: center;
         font-size: 500%;
         display: block;
         text-shadow: 5px 5px 5px black;
+        margin-top: 60px;
         margin-bottom: 5vh;
     }
 
@@ -838,12 +858,41 @@ table {
         font-size: 14px;
     }
 
-    .menu_item {
-        margin-right: 5px;
-        padding: 1%;
-        font-size: 14px;
+    .menu {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 0 !important;
+        top: 0;
+        left: 0;
+        z-index: 9999;
+        background: transparent;
+        margin: 0;
+        padding: 0;
+        height: 50px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.2);
     }
-    
+
+    .menu_item {
+        white-space: nowrap;
+        flex: 1 1 0;
+        margin: 0;
+        border-radius: 0 !important;
+        font-size: 0.9em;
+        padding: 0;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #FF6A13;
+        border: 2px solid black;
+        box-shadow: 2px 2px 5px black;
+    }
+
     #anime {
         font-size: 18px;
     }
@@ -900,5 +949,37 @@ table {
 
     .contador {
         display: none;
+    }
+
+    .menu-movil {
+        display: flex !important;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 100vw;
+        position: sticky;
+        top: 0;
+        left: 0;
+        z-index: 9999;
+        background: transparent;
+        margin: 0;
+        padding: 0;
+        height: 50px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    }
+
+    .menu-movil .menu_item {
+        white-space: nowrap;
+        flex: 1 1 0;
+        margin: 0;
+        border-radius: 0 !important;
+        font-size: 0.9em;
+        padding: 0;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #FF6A13;
+        border: 2px solid black;
+        box-shadow: 2px 2px 5px black;
     }
 }

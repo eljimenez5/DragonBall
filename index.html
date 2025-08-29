@@ -12,9 +12,14 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Yuji+Mai&display=swap" rel="stylesheet">
         <meta name="google-adsense-account" content="ca-pub-2147238078601273">
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2147238078601273"crossorigin="anonymous"></script>
     </head>
 <body>
+    <!-- Botón flotante para subir al inicio en móvil -->
+    <button id="btn-subir" title="Subir" onclick="window.scrollTo({top:0, behavior:'smooth'});">
+        ⬆️
+    </button>
+<!-- Si hay otro <div class="menu-movil"> más abajo, lo elimino -->
+<!-- Eliminar duplicados de menú móvil -->
 <header>
         <img class="logo-DragonBall-derecha" src="Imágenes/Logo-DragonBall.png" alt="esfera">
         <img class="logo-DragonBall-izquierda" src="Imágenes/Logo-DragonBall.png" alt="logo-DragonBall">
@@ -31,7 +36,7 @@
                     <div class="clear"></div>
         </div>  
     <div class="caja-indice">
-        <h1>Indice</h1>
+        <h1 class="indice-h1">Indice</h1>
         <ul>
             <li><a href="#inicio" class="a">Inicio</a></li>
             <li><a href="#intro" class="a">Introducción.</a></li>
@@ -70,12 +75,18 @@
         <h1>Advertencia</h1>
             <p class="p-advertencia">Esta página está optimizada para su visualización en ordenadores. La experiencia en dispositivos móviles o tabletas puede verse afectada. Agradezco su comprensión.</p>
     </div>
+    <!-- Fin del menú móvil -->
     </div>
     <div class="caja">
         <h1 id="intro">Introduccion</h1>
-            <p>Dragon Ball, creado por Akira Toriyama en 1984, es una de las series de anime más influyentes y queridas del mundo.</p>
-            <p>Antes de fallecer por un hematoma subdural agudo (un tipo de hemorragia cerebral) a los 68 años de edad, trabajó en su último proyecto, Dragon Ball Daima, el cual se encuentra en emisión desde el 11 de octubre de 2024 (cada viernes a las 21:00 hora española disponemos de un nuevo episodio).</p>
-            <p>La historia sigue las aventuras de Goku, un niño que vive solo en el Monte Paoz (también conocido como La Montaña Baozi). Peculiar por su cola de mono y su gran fuerza lo que le permite vivir de la naturaleza desde los 5 años, tras la muerte de su abuelo adoptivo, Gohan.</p>
+            <p>Dragon Ball, creado por Akira Toriyama en noviembre de 1984, comenzó como un manga que rápidamente capturó la atención de millones. El 26 de febrero de 1986, dio el salto al formato anime, marcando el inicio de una de las sagas más influyentes de la historia.</p>
+            <p>La historia sigue a Son Goku, un niño con cola de mono y fuerza sobrehumana que vive solo en el bosque. Su vida cambia cuando conoce a Bulma, una adolescente decidida a encontrar las legendarias esferas del dragón. Juntos emprenden una aventura que mezcla humor, acción y descubrimientos místicos.</p>
+<ul>
+  <li>💥 Dragon Ball inspiró series como One Piece y Naruto.</li>
+  <li>🐒 El origen saiyajin de Goku y su cola de mono lo hacen único desde el inicio.</li>
+  <li>🐉 Las esferas del dragón permiten invocar a Shenlong, quien concede cualquier deseo.</li>
+  <li>🧠 Goku representa la superación constante: cada derrota lo impulsa a entrenar y evolucionar.</li>
+</ul>
     </div>
     <div class="div-video-intro">
     <video src="Vídeos/Resumen Dragon Ball.mp4" class="video-intro" controls></video>
@@ -200,7 +211,7 @@
             <li>El Agua Ultrasagrada es comparada simbólicamente con la "fe" o "esperanza" en el bien, pues elimina la maldad sin ser un arma destructiva</li>
         </ul>
         <div class="div-agua-ultrasagrada">
-            <img src="Imágenes/Agua Ultrasagrada.webp" class="img-agua-ultrasagrada" alt="Agua Ultrasagrada">
+            <img src="Imágenes/Agua ultrasagrada.webp" class="img-agua-ultrasagrada" alt="Agua Ultrasagrada">
         </div>
     </div>
     <div class="caja">
@@ -222,7 +233,7 @@
                 <li>La utilidad  de fusionar individuos con los pendientes Potara es considerado un desarrolo involuntario de la trama y una coincidencia fortuita en el manga original, dicho por el propio Akira Toriyama.</li>
             </ul>
         <div class="div-pendientes-potara">
-            <img src="/Dragon Ball/Imágenes/Goku con pendiente pothala.jpg" class="img-pendientes-potara" alt="Imagen de Goku con un pendiente potara">
+            <img src="Imágenes/Goku con pendiente pothala.jpg" class="img-pendientes-potara" alt="Imagen de Goku con un pendiente potara">
         </div>
     </div>
     <div class="caja">
@@ -257,7 +268,7 @@
             </ul>
             <p>📢 Los Anillos del Tiempo son esenciales para entender el multiverso en Dragon Ball. Esto explica que hay múltiples líneas temporales y cómo los dioses supervisan el equilibrio del tiempo.</p>
             <div class="div-anillos-del-tiempo">
-                <img src="/Dragon Ball/Imágenes/Anillos del tiempo.webp" class="img-anillos-del-tiempo" alt="Imagen de anillos del tiempo de Dragon Ball, Dragon Ball Super">
+                <img src="/Imágenes/Anillos del tiempo.webp" class="img-anillos-del-tiempo" alt="Imagen de anillos del tiempo de Dragon Ball, Dragon Ball Super">
             </div>
     </div>
     <div class="caja">
@@ -292,7 +303,7 @@
             <p>El Tercer Ojo Demoníaco es clave en la lucha por el dominio entre los demonios. 
                 Su posesión puede cambiar el destino de la historia en Dragon Ball Daima.</p>
         <div class="div-tercer-ojo-demoniaco">
-            <img src="/Dragon Ball/Imágenes/Tercer ojo demoniaco.webp" class="img-tercer-ojo-demoniaco">
+            <img src="/Imágenes/Tercer ojo demoniaco.webp" class="img-tercer-ojo-demoniaco">
         </div>
     </div>
     <div class="caja">
@@ -351,7 +362,7 @@
         <h1 id="sabias-que">¿Sabias que?</h1>
         <p>En Arabia Saudita la compañía de Qiddiya Investment está creando un parque temático dedicado a Dragon Ball de 500.000 metros cuadrados. Será el primer parque temático de Dragon Ball en todo el mundo, donde desde la <a href="https://en.dragon-ball-official.com/news/01_2533.html" class="enlaces">web oficial</a>
             dicen que "los visitantes podrán vivir una aventura con Goku y sus amigos mientras disfrutan del mundo de Dragon Ball, desde el principio del anime hasta Dragon Ball Super".</p>
-        <p>En el parque tendremos 7 zonas distintas (en referencia a las esferas del dragón), en las cuales tendremos lugares tan míticos como lo son la Kame House, la Capsule Corpotartión, el planeta de Berrus (el dios de la destrucción del universo 7) y la torre de Karin entre otras zonas emblemáticas. </p>
+        <p>En el parque tendremos 7 zonas distintas (en referencia a las esferas del dragón), en las cuales tendremos lugares tan míticos como lo son la Kame House, la Capsule Corpotartición, el planeta de Berrus (el dios de la destrucción del universo 7) y la torre de Karin entre otras zonas emblemáticas. </p>
         <p>Según el comunicado de la compañía, el parque contará con un total de 30 atracciones temáticas, de las cuales 5 son atracciones ¡únicas en todo el mundo!, que aún no han sido desveladas. Lo que si sabemos es que habrá una estatua enorme de Shenron con una montaña rusa de 70 metros de altura. En sus pies podremos observar las 7 esferas del dragón. Como no podía faltar, habrá hoteles y restaurantes.</p>
         <p>El parque temático se encontrará dentro del proyecto Al-Qiddiya, un megaproyecto de entretenimiento conocido como la <a href="https://www.xataka.com/otros/neom-ciudad-futurista-500-000-millones-dolares-siembra-nubes-robots-vigilancia-ia-luna-artificial" class="enlaces">ciudad Neom,</a> el cual lleva en contrucción desde el 2019 y se espera que sea el más grande en todo el planeta Tierra, con una superficie de 334 kilómetros cuadrados.</p>
         <p>Se estima que el precio es de unos 80.000 millones de dólares.</p>
@@ -382,9 +393,7 @@
             </td>
         </tr>
     </table>
-    <marquee>Web realizada por Francisco Jiménez Ocaña conocido como <a href="https://heylink.me/eljimenez5/" class="enlaces">"eljimenez5".</a> Última modificación: 21/02/2025</marquee>
+    <marquee>Web realizada por Francisco Jiménez Ocaña conocido como <a href="https://heylink.me/eljimenez5/" class="enlaces">"eljimenez5".</a> Última modificación: 28/08/2025</marquee>
 </footer>
-<script type='text/javascript' src='https://pl27490690.profitableratecpm.com/44/a8/23/44a8235dc79c89c0e5dcff9cc719def0.js'></script>
 </body>
-
 </html>
